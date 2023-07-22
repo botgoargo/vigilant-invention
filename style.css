@@ -1,0 +1,259 @@
+ #chat-container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #chat-messages {
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #chat-input input {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #chat-input button {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+   
+
+
+   #chat-container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #chat-messages {
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .message img,
+  .message video {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  #chat-input input[type="text"],
+  #chat-input input[type="file"] {
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #chat-input button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #chat-input button:hover {
+    background-color: #45a049;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+  #chat-container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #chat-messages {
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .message img,
+  .message video {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-text {
+    margin-bottom: 5px;
+  }
+  
+  .message-info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .message-info .sender {
+    margin-right: 5px;
+  }
+  
+  #chat-input input[type="text"],
+  #chat-input input[type="file"] {
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #chat-input button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #chat-input button:hover {
+    background-color: #45a049;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+  body {
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+#chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+   
+
+
+body {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+  
+
+
+  }
+
+ 
+  
+
+
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #666;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
